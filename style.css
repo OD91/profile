@@ -1,0 +1,159 @@
+body {
+    background: FFFFFF;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    color: #7d7d7d;
+    font-size: 15px;
+    line-height: 1.6em;
+    vertical-align: middle;
+}
+
+/* unvisited link */
+a:link {
+    color: white;
+    text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+    color: green;
+    text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+    color: #DD5555;
+    text-decoration: underline;
+}
+
+/* selected link */
+a:active {
+    color: blue;
+    text-decoration: underline;
+}
+
+p {
+  text-align: justify;
+}
+
+h1, h2, h3 {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+h1 {
+    color: #DD5555;
+    font-size: 22px;
+}
+
+h2 {
+    font-size: 18px;
+    font-weight: 300;
+}
+
+h3 {
+    font-size: 16px;
+    font-weight: 300;
+}
+
+ul {
+  list-style-type: none;
+  text-align: center;
+}
+
+li {
+  text-align: center;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+
+#img-profile {
+  width: 200px;
+  height: 200px;
+  position: relative;
+  overflow: hidden;
+  border-radius: 50%;
+  border: 3px solid #000;
+  object-fit: cover;
+}
+
+/* not used due to img-profile above */
+.img-circle {
+    border-radius: 50%;
+}
+
+.list-inline {
+    padding-left: 0;
+}
+
+.list-inline li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.text-center {
+    text-align: center;
+    font-size: 20px;
+}
+
+/*.container {
+    width: 900px;
+    margin: 0 auto;
+}*/
+
+.card {
+    background: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    width: 900px;
+    margin: 0 auto;
+}
+
+#books {
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 1.6em;
+}
+#books img {
+    width: 100px;
+}
+
+#books td {
+    padding: 10px;
+}
+
+.btn-red {
+    background-color: #DD5555;
+    color: white;
+    font-weight: 500;
+    padding: 10px;
+    border-radius: 4px;
+    font-size: 18px
+}
+
+.fa {
+    text-align: center;
+    font-size: 20px;
+    color: black;
+}
+
+.card-white {
+  background: white;
+  padding: 30px;
+/*  border: 1px solid lightgrey;*/
+  width: 100%;
+}
+
+.card-social {
+  background: rgb(155, 244, 205);
+  padding: 30px;
+/*  border: 1px solid lightgrey;*/
+  width: 100%;
+}
